@@ -1,0 +1,57 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 850px;
+    position: relative;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    border: 3px solid #fff;
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+#gameStatus {
+    margin-top: 20px;
+    text-align: left;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 20px;
+    color: #aaa;
+}
+
+button {
+    background-color: #f4b400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d89e00;
+}
